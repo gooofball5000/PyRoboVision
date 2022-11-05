@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pyrobovision"
+version = "0.1.0"
+description = "A repository for opencv vision processing methods."
+authors = ["Nate <minecraftcrusher100@gmail.com>"]
+license = "GPLv3-or-later"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
