@@ -5,13 +5,12 @@
 # the WPILib BSD license file in the root directory of this project.
 
 import json
-import time
 import sys
+import time
 
 import cv2
 import numpy as np
-
-from cscore import CameraServer, VideoSource, UsbCamera, MjpegServer
+from cscore import CameraServer, UsbCamera, VideoSource
 from networktables import NetworkTables, NetworkTablesInstance
 
 #   JSON format:
